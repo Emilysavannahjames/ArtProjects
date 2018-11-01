@@ -7,26 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C7FB9FE2218B738A00CE71C6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7FB9FE1218B738A00CE71C6 /* ViewController.swift */; };
+		C7FB9FE2218B738A00CE71C6 /* DrawingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7FB9FE1218B738A00CE71C6 /* DrawingViewController.swift */; };
 		C7FB9FE5218B738A00CE71C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7FB9FE3218B738A00CE71C6 /* Main.storyboard */; };
 		C7FB9FEA218B739700CE71C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7FB9FE8218B739700CE71C6 /* LaunchScreen.storyboard */; };
-		C7FB9FF3218B756200CE71C6 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C7FB9FF2218B756200CE71C6 /* Default-568h@2x.png */; };
 		C7FB9FF7218B75F200CE71C6 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C7FB9FF4218B75F200CE71C6 /* Info.plist */; };
 		C7FB9FF8218B75F200CE71C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7FB9FF5218B75F200CE71C6 /* AppDelegate.swift */; };
 		C7FB9FF9218B75F200CE71C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7FB9FF6218B75F200CE71C6 /* Assets.xcassets */; };
 		C7FB9FFE218B767300CE71C6 /* creativity.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7FB9FFD218B767300CE71C6 /* creativity.swift */; };
+		C7FBA000218B7D1700CE71C6 /* DrawingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7FB9FFF218B7D1700CE71C6 /* DrawingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C7FB9FDC218B738A00CE71C6 /* ArtProjects.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArtProjects.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		C7FB9FE1218B738A00CE71C6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C7FB9FE1218B738A00CE71C6 /* DrawingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingViewController.swift; sourceTree = "<group>"; };
 		C7FB9FE4218B738A00CE71C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C7FB9FE9218B739700CE71C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		C7FB9FF2218B756200CE71C6 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		C7FB9FF4218B75F200CE71C6 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C7FB9FF5218B75F200CE71C6 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C7FB9FF6218B75F200CE71C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C7FB9FFD218B767300CE71C6 /* creativity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = creativity.swift; sourceTree = "<group>"; };
+		C7FB9FFF218B7D1700CE71C6 /* DrawingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,7 +45,6 @@
 			children = (
 				C7FB9FDE218B738A00CE71C6 /* ArtProjects */,
 				C7FB9FDD218B738A00CE71C6 /* Products */,
-				C7FB9FF2218B756200CE71C6 /* Default-568h@2x.png */,
 			);
 			sourceTree = "<group>";
 		};
@@ -83,6 +82,7 @@
 			children = (
 				C7FB9FE3218B738A00CE71C6 /* Main.storyboard */,
 				C7FB9FE8218B739700CE71C6 /* LaunchScreen.storyboard */,
+				C7FB9FFF218B7D1700CE71C6 /* DrawingView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -90,7 +90,7 @@
 		C7FB9FFB218B764400CE71C6 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				C7FB9FE1218B738A00CE71C6 /* ViewController.swift */,
+				C7FB9FE1218B738A00CE71C6 /* DrawingViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -163,7 +163,6 @@
 			files = (
 				C7FB9FF7218B75F200CE71C6 /* Info.plist in Resources */,
 				C7FB9FEA218B739700CE71C6 /* LaunchScreen.storyboard in Resources */,
-				C7FB9FF3218B756200CE71C6 /* Default-568h@2x.png in Resources */,
 				C7FB9FE5218B738A00CE71C6 /* Main.storyboard in Resources */,
 				C7FB9FF9218B75F200CE71C6 /* Assets.xcassets in Resources */,
 			);
@@ -178,7 +177,8 @@
 			files = (
 				C7FB9FF8218B75F200CE71C6 /* AppDelegate.swift in Sources */,
 				C7FB9FFE218B767300CE71C6 /* creativity.swift in Sources */,
-				C7FB9FE2218B738A00CE71C6 /* ViewController.swift in Sources */,
+				C7FB9FE2218B738A00CE71C6 /* DrawingViewController.swift in Sources */,
+				C7FBA000218B7D1700CE71C6 /* DrawingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
