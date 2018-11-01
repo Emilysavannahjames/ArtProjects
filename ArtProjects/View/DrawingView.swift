@@ -54,7 +54,6 @@ public class DrawingView: UIView
     }
     
    // private func drawSquare() -> Void
-    //
     //{
         //let logo = UIBezierPath()
         //UIColor.blue.setFill()
