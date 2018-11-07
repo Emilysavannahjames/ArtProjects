@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C7A4ADD32193720800F0E208 /* ArtCollectionControllerCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A4ADD22193720800F0E208 /* ArtCollectionControllerCollectionViewController.swift */; };
 		C7FB9FE2218B738A00CE71C6 /* DrawingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7FB9FE1218B738A00CE71C6 /* DrawingViewController.swift */; };
 		C7FB9FE5218B738A00CE71C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7FB9FE3218B738A00CE71C6 /* Main.storyboard */; };
 		C7FB9FEA218B739700CE71C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7FB9FE8218B739700CE71C6 /* LaunchScreen.storyboard */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C7A4ADD22193720800F0E208 /* ArtCollectionControllerCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtCollectionControllerCollectionViewController.swift; sourceTree = "<group>"; };
 		C7FB9FDC218B738A00CE71C6 /* ArtProjects.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArtProjects.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7FB9FE1218B738A00CE71C6 /* DrawingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingViewController.swift; sourceTree = "<group>"; };
 		C7FB9FE4218B738A00CE71C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -91,6 +93,7 @@
 			isa = PBXGroup;
 			children = (
 				C7FB9FE1218B738A00CE71C6 /* DrawingViewController.swift */,
+				C7A4ADD22193720800F0E208 /* ArtCollectionControllerCollectionViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -178,6 +181,7 @@
 				C7FB9FF8218B75F200CE71C6 /* AppDelegate.swift in Sources */,
 				C7FB9FFE218B767300CE71C6 /* creativity.swift in Sources */,
 				C7FB9FE2218B738A00CE71C6 /* DrawingViewController.swift in Sources */,
+				C7A4ADD32193720800F0E208 /* ArtCollectionControllerCollectionViewController.swift in Sources */,
 				C7FBA000218B7D1700CE71C6 /* DrawingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
