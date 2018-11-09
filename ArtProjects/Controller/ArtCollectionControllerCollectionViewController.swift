@@ -23,7 +23,8 @@ public class ArtCollectionControllerCollectionViewController: UICollectionViewCo
             UIImage(named: "octoCat"),
             UIImage(named: "Flamingo"),
             UIImage(named: "Van"),
-            UIImage(named: "stickFigure")
+            UIImage(named: "stickFigure"),
+            UIImage(named: "robotLang")
         ]
         
     }()
@@ -35,6 +36,7 @@ public class ArtCollectionControllerCollectionViewController: UICollectionViewCo
         "is",
         "creativeCS",
         "one",
+        "above",
         "above"
         ]
     }()
@@ -47,16 +49,16 @@ public class ArtCollectionControllerCollectionViewController: UICollectionViewCo
         // self.clearsSelectionOnViewWillAppear = false
 
         // Register cell classes
-        self.collectionView!.register(UICollectionViewCell.self, forCellWithReuseIdentifier: reuseIdentifier)
+        //self.collectionView!.register(UICollectionViewCell.self, forCellWithReuseIdentifier: reuseIdentifier)
 
         // Do any additional setup after loading the view.
     }
 
-    public override func didReceiveMemoryWarning()
-    {
-        super.didReceiveMemoryWarning()
+    //public override func didReceiveMemoryWarning()
+    //{
+    //    super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
-    }
+    //}
 
     /*
     // MARK: - Navigation
@@ -82,15 +84,19 @@ public class ArtCollectionControllerCollectionViewController: UICollectionViewCo
         // #warning Incomplete implementation, return the number of items
         return creativeCS.count
     }
-
+    
     public override func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell
     {
-        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: reuseIdentifier, for: indexPath)
-    
-        // Configure the cell
-    
-        return cell
+        let artCell = collectionView.dequeueReusableCell(withReuseIdentifier: reuseIdentifier, for: indexPath) as! ArtCell
+        
+        artCell.backgroundColor = .purple
+        artCell.artImage.image = creativeCS[indexPath.row]
+        artCell.artLabel.text = labels[indexPath.row]
+        
+        return artCell
     }
+    
+  //
 
     // MARK: UICollectionViewDelegate
 
@@ -112,6 +118,8 @@ public class ArtCollectionControllerCollectionViewController: UICollectionViewCo
     {
         return sectionInsets.left
     }
+    
+    
 
     /*
     // Uncomment these methods to specify if an action menu should be displayed for the specified item, and react to actions performed on the item

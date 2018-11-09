@@ -62,7 +62,7 @@
                                     <rect key="frame" x="0.0" y="0.0" width="233" height="300"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xIZ-Di-ncs">
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xIZ-Di-ncs" userLabel="ArtImage">
                                             <rect key="frame" x="-4" y="0.0" width="240" height="234"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         </imageView>
@@ -76,6 +76,10 @@
                                     </subviews>
                                 </view>
                                 <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <connections>
+                                    <outlet property="artImage" destination="xIZ-Di-ncs" id="ATP-hS-VIa"/>
+                                    <outlet property="artLabel" destination="PJz-pe-MJZ" id="MCw-XM-b9z"/>
+                                </connections>
                             </collectionViewCell>
                         </cells>
                         <connections>
